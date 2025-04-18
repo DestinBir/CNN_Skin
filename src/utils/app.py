@@ -15,7 +15,7 @@ st.set_page_config(page_title="CNN Médical en Temps Réel", layout="centered")
 st.title("🧠 Classification d’Images Médicales avec CNN")
 st.markdown("---")
 
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/6/6e/Health_Medical_icon.png", width=100)
+st.sidebar.image("https://img.freepik.com/vecteurs-libre/gens-qui-marchent-assis-au-batiment-hopital-exterieur-verre-clinique-ville-illustration-vectorielle-plane-pour-aide-medicale-urgence-architecture-concept-soins-sante_74855-10130.jpg?t=st=1745012857~exp=1745016457~hmac=0480619b6d5efd4aef2b5e258fc744737c09d4fd5a1005dde68d0dad65e1e99e&w=740", width=100)
 st.sidebar.title("Navigation")
 section = st.sidebar.radio("Aller à", ["🏁 Présentation", "📊 Dataset", "🔍 Tester une Image"])
 
